@@ -7,6 +7,7 @@ public class teste_heranca {
         System.out.println(prof.Salvar());
         //prof.Salvar();
 
+        System.out.println("Parte estudante");
         estudante e1 = new estudante();
         e1.cpf = "888";
         System.out.println(e1.Salvar());
