@@ -3,7 +3,9 @@ public class estudante extends pessoa{
 
     @Override
     public boolean Salvar(){
+    if (super.Salvar()){
     System.out.println("Salvando na tabela de estudante");
+    }
     return true;
 }
 
