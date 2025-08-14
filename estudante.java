@@ -1,12 +1,12 @@
 public class estudante extends pessoa{
     public String rgm;
-
-    @Override
+    @Override 
     public boolean Salvar(){
-    if (super.Salvar()){
-    System.out.println("Salvando na tabela de estudante");
+        if(super.Salvar()){
+            System.out.println("Salvando na tabela de estudantes");
+            return true;
+        }
+        return false;
     }
-    return true;
-}
 
 }

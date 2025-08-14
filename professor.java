@@ -1,10 +1,13 @@
 public class professor extends pessoa{
     public String matricula;
-    public String titulacao;
+   // public String titulacao;
 
     @Override
     public boolean Salvar(){
-       System.out.println("Salvando na tabela professor");
-       return true;
+        if(super.Salvar()){
+            System.out.println("Salvando na tabela de professores");
+            return true;
+        }
+        return false;
     }
 }
